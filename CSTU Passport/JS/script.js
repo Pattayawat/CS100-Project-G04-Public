@@ -84,8 +84,8 @@ function validateGroupID() {
   }
   return true;
 }
-
-// Function to validate 
+ 
+// Function to validate Sex
 function validateSex() {
   const sexInput = document.getElementById("sex").value;
   const errorElement = document.getElementById("sexError");
