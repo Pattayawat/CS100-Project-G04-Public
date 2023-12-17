@@ -1,0 +1,141 @@
+
+    .header {
+        width: 100%;
+        margin: 0px ;
+        border: 1px solid  #EFE9E4;
+        background-color:  #EFE9E4; 
+    }
+    .header h1 {
+        color: #202020;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 50px;
+    }
+    .row{
+        position: relative;
+        width:100%;
+    }
+    .menu {
+        margin-top: 2%;
+    }
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu a {
+        color: #EFE9E4;
+        text-decoration: none;
+    }
+    .menu li {
+        padding: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        background-color: #202020;
+        color: #EFE9E4;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    .menu li:hover {
+        background-color: #5e5343;
+    }
+
+    .img {
+        margin : 5%;
+        padding: 0%;
+        margin-left: 5%;
+
+    }
+    .niname {
+        margin: 0%;
+        padding: 0%;
+        background-color: #EFE9E4;
+        line-height: 100%;
+    }
+    .niname h1 {
+        font-family: serif;
+        color: #202020;
+        text-align: center;
+        line-height: 100%;
+        font-size: 50px;
+    }
+    .niname p {
+        color: #202020;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .contact {
+        margin-top: 5px;
+        color: #202020;
+        padding-left: 15%;
+        font-family: sans-serif;
+        line-height: 100%;
+        font-size: 75%;
+    }
+    #main-div
+    {
+        width:100%;
+        min-height: 400px;
+        margin-top: 600px;
+    }
+    .clearfix::after
+    {
+        content:"";
+        display: block;
+        clear:both;
+    }
+    #Profile
+    {
+        width:60%;
+        min-height: 580px;
+        /*background-color: lightgray;*/
+        float:left;
+        text-align: right;
+        padding-top: 180px;
+        color:rgb(90, 75, 56);
+    }
+
+    #Picture
+    {
+        width:35%;
+        min-height: 400px;
+        padding-top:px;
+        /*background-color: lightgray;*/
+        float:right;
+    }
+    .contact
+    {
+        margin-bottom: 10px;
+    }
+    /* #Profile h1
+    {
+        font-family: serif;
+        font-size: 50px;
+        line-height: 100%;
+    }
+    #profile p
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+    } */
+    #Uni
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 3; 
+    }
+    #name
+    {
+        line-height: 1;
+        font-size: 70px;
+    }
+    #contact1
+    {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        
+    }
